@@ -108,13 +108,7 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
-#sourabh{
-	width: 700px;
-	height: 200px;
-	position: relative;
-	left: 150px;
-	top: 43px;
-}
+
 .about-img{
 	
 	border-radius: 50%;
@@ -138,6 +132,31 @@ position: relative;
     margin: 0 auto;
     padding: 20px;
 }
+
+#profile{
+	position: relative;
+	bottom: 10px;
+}
+
+	/* bottom: 20px;
+	min-height: 200px; */
+	
+	
+#cal,#sk{
+	height: 225px;
+	width: 380px;
+}
+#man{
+	width: 900px;
+	position: relative;
+	top: 55px;
+	left: 220px;
+
+}
+/* #name{
+	font-size: 5rem;
+	
+} */
 
 </style>
 
@@ -170,13 +189,13 @@ position: relative;
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div id ="sourabh"class="one-third js-fullheight order-md-last img" style="background-image:url(images/man.png);">
+	          	<div id ="man"class="one-third js-fullheight order-md-last img" style="background-image:url(images/man.png);">
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Sourabh Soni</span></h1>
+			            <h1 id="name"class="mb-4 mt-3">I'm <span>Sourabh Soni</span></h1>
 
 						<!-- Element to contain animated typing -->
 						<span id="typing-animation"></span>
@@ -242,7 +261,7 @@ position: relative;
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/Sourabhsoni.jpg" class="img-fluid rounded b-shadow-a" alt="">
+										<img id="profile"src="images/profiles.png" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
@@ -402,7 +421,7 @@ position: relative;
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1K5ddOvr-Z0BDygZYws77vu88bXUUJcJW/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a href="https://drive.google.com/file/d/1me2kc_Kjyjp-R2Eqv98JnLYDr3a9DV5a/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
     		</div>
     	</div>
@@ -416,7 +435,7 @@ position: relative;
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Interesting projects.</p>
+            <p>Below are the  some sample of projects.</p>
           </div>
         </div>
 
@@ -428,8 +447,8 @@ position: relative;
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/Sourabhsoni44/Snack-game">Snack Game</a></h3>
-                <p>Creating a very interesting and popular old snack game with the help of html and javaScript.</p>
+                <h3 class="heading"><a href="https://github.com/Sourabhsoni44/Snack-game">Snake Game</a></h3>
+                <p>Creating a very interesting and popular old snake game with the help of html and javaScript.</p>
               </div>
             </div>
           </div>
@@ -437,7 +456,7 @@ position: relative;
 
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Sourabhsoni44/Calsi" class="block-20 zoom-effect" style="background-image: url('images/Calsi.jpg');">
+              <a id="cal"href="https://github.com/Sourabhsoni44/Calsi" class="block-20 zoom-effect" style="background-image: url('images/Calsi.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
@@ -521,7 +540,7 @@ position: relative;
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1K5ddOvr-Z0BDygZYws77vu88bXUUJcJW/view?usp=sharing">resumelink</a></p>
+	            <p><a href="https://drive.google.com/file/d/1me2kc_Kjyjp-R2Eqv98JnLYDr3a9DV5a/view?usp=sharing">resumelink</a></p>
 	          </div>
           </div>
 
